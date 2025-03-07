@@ -1,0 +1,5 @@
+FROM llama2
+
+PARAMETER fine-tune "consumer_support_dataset.jsonl"
+
+SYSTEM "You are a helpful AI trained for customer support. Respond in a polite and professional manner."
